@@ -315,41 +315,6 @@ Use menu-driven interface.
 
 ---
 
-# ℹ️ Important Derby Notes
-
-- Derby Embedded Mode allows only one active database instance.
-- Graceful shutdown is required to release database locks.
-- shutdown=true intentionally throws exception in Derby.
-
----
-
-# 🚀 Future Improvements
-
-Possible future enhancements:
-- GUI version using JavaFX/Swing
-- Multi-user concurrency
-- Fine calculation for overdue books
-- CSV export reports
-- Advanced analytics dashboard
-- Network-mode Derby deployment
-
----
-
-# 🎯 Learning Outcomes
-
-This project helped demonstrate:
-- JDBC programming
-- Database transactions
-- ACID properties
-- Performance optimization
-- Benchmarking techniques
-- Indexing concepts
-- Exception handling
-- Layered software architecture
-
----
-
----
 
 # 📸 Application Screenshots
 
@@ -370,6 +335,29 @@ This project helped demonstrate:
 ![Performance Report](performance-report.png)
 
 ---
+
+# ℹ️ Important Derby Notes
+
+- Derby Embedded Mode allows only one active database instance.
+- Graceful shutdown is required to release database locks.
+- shutdown=true intentionally throws exception in Derby.
+
+---
+
+# 🎯 Learning Outcomes
+
+This project helped demonstrate:
+- JDBC programming
+- Database transactions
+- ACID properties
+- Performance optimization
+- Benchmarking techniques
+- Indexing concepts
+- Exception handling
+- Layered software architecture
+
+---
+
 
 # 👨‍💻 Author
 
