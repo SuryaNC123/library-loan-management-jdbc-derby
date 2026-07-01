@@ -1,6 +1,6 @@
-# End-to-End JDBC Application with Transaction Management & Performance Evaluation (Apache Derby)
+# 📚 End-to-End JDBC Application with Transaction Management & Performance Evaluation (Apache Derby)
 
-## Project Overview
+## 🚀 Project Overview
 
 This project is a console-based Library Loan Management System developed using Java JDBC and Apache Derby Embedded Database.
 
@@ -21,7 +21,7 @@ The project also includes benchmarking modules to compare different JDBC strateg
 
 ---
 
-# Technologies Used
+# 🛠️ Technologies Used
 
 - Java
 - JDBC
@@ -30,11 +30,11 @@ The project also includes benchmarking modules to compare different JDBC strateg
 
 ---
 
-# Project Architecture
+# 🏗️ Project Architecture
 
 The project follows layered architecture with separate packages:
 
-## Packages
+## 📦 Packages
 
 | Package | Responsibility |
 |---|---|
@@ -47,7 +47,7 @@ The project follows layered architecture with separate packages:
 
 ---
 
-# Database Used
+# 🗄️ Database Used
 
 Apache Derby Embedded Database
 
@@ -59,9 +59,9 @@ jdbc:derby:LibraryDB;create=true
 
 ---
 
-# Database Schema
+# 📊 Database Schema
 
-## Members Table
+## 👥 Members Table
 
 | Column | Description |
 |---|---|
@@ -71,7 +71,7 @@ jdbc:derby:LibraryDB;create=true
 
 ---
 
-## Books Table
+## 📚 Books Table
 
 | Column | Description |
 |---|---|
@@ -82,7 +82,7 @@ jdbc:derby:LibraryDB;create=true
 
 ---
 
-## Loans Table
+## 📋 Loans Table
 
 | Column | Description |
 |---|---|
@@ -94,9 +94,9 @@ jdbc:derby:LibraryDB;create=true
 
 ---
 
-# Features Implemented
+# ✨ Features Implemented
 
-## JDBC Features
+## 🔗 JDBC Features
 
 - JDBC DriverManager connectivity
 - Connection handling
@@ -106,17 +106,17 @@ jdbc:derby:LibraryDB;create=true
 
 ---
 
-## CRUD Operations
+## 📝 CRUD Operations
 
-### Books
+### 📚 Books
 - Add Book
 - View Books
 
-### Members
+### 👥 Members
 - Add Member
 - View Members
 
-### Loans
+### 📋 Loans
 - Process Loan
 - Return Book
 - View Active Loans
@@ -124,7 +124,7 @@ jdbc:derby:LibraryDB;create=true
 
 ---
 
-# Transaction Management Features
+# 🔒 Transaction Management Features
 
 The project demonstrates explicit transaction management using:
 
@@ -135,7 +135,7 @@ The project demonstrates explicit transaction management using:
 
 ---
 
-## ACID Properties Demonstrated
+## 🧪 ACID Properties Demonstrated
 
 ### Atomicity
 All operations in a transaction succeed together or fail together.
@@ -151,7 +151,7 @@ Committed data persists permanently.
 
 ---
 
-# Loan Processing Workflow
+# 🔄 Loan Processing Workflow
 
 The processLoan() transaction performs:
 
@@ -166,7 +166,7 @@ If any operation fails:
 
 ---
 
-# Return Book Workflow
+# ↩️ Return Book Workflow
 
 The returnBook() transaction performs:
 
@@ -178,7 +178,7 @@ The returnBook() transaction performs:
 
 ---
 
-# Savepoint Demonstration
+# 💾 Savepoint Demonstration
 
 The project demonstrates partial rollback using savepoints.
 
@@ -187,11 +187,11 @@ If a later operation fails:
 
 ---
 
-# Performance Benchmarking
+# ⚡ Performance Benchmarking
 
 The application includes benchmarking modules to compare JDBC strategies.
 
-## Benchmarks Implemented
+## 📈 Benchmarks Implemented
 
 ### Insert Strategy Benchmark
 - Normal Insert
@@ -202,7 +202,7 @@ Batch insert performs significantly faster.
 
 ---
 
-### Statement Type Benchmark
+### ⚙️ Statement Type Benchmark
 - Statement
 - PreparedStatement
 
@@ -211,7 +211,7 @@ PreparedStatement performs faster due to query precompilation and reuse.
 
 ---
 
-### Query Strategy Benchmark
+### 🔍 Query Strategy Benchmark
 - Full Table Scan
 - Indexed Query
 
@@ -220,7 +220,7 @@ Indexed queries are much faster than scanning the entire table.
 
 ---
 
-### Transaction Granularity Benchmark
+### ⏱️ Transaction Granularity Benchmark
 - Per-operation Commit
 - Batched Commit
 
@@ -229,7 +229,7 @@ Single batched commit reduces transaction overhead and improves performance.
 
 ---
 
-# Warm-Up Benchmarking
+# 🔥 Warm-Up Benchmarking
 
 A warm-up phase is included to:
 - stabilize JVM JIT compilation
@@ -238,7 +238,7 @@ A warm-up phase is included to:
 
 ---
 
-# Menu-Driven CLI
+# 🖥️ Menu-Driven CLI
 
 The application provides a console-based menu interface for:
 - adding books
@@ -250,7 +250,7 @@ The application provides a console-based menu interface for:
 
 ---
 
-# Exception Handling
+# ⚠️ Exception Handling
 
 The project handles:
 - duplicate key violations
@@ -261,7 +261,7 @@ The project handles:
 
 ---
 
-# Resource Management
+# 🧹 Resource Management
 
 The project uses:
 - try-with-resources
@@ -274,7 +274,7 @@ to prevent:
 
 ---
 
-# Sample Performance Observations
+# 📋 Sample Performance Observations
 
 | Operation | Observation |
 |---|---|
@@ -286,7 +286,7 @@ to prevent:
 
 ---
 
-# How To Run
+# ▶️ How To Run
 
 ## Step 1
 Open project in Eclipse IDE.
@@ -315,7 +315,7 @@ Use menu-driven interface.
 
 ---
 
-# Important Derby Notes
+# ℹ️ Important Derby Notes
 
 - Derby Embedded Mode allows only one active database instance.
 - Graceful shutdown is required to release database locks.
@@ -323,7 +323,7 @@ Use menu-driven interface.
 
 ---
 
-# Future Improvements
+# 🚀 Future Improvements
 
 Possible future enhancements:
 - GUI version using JavaFX/Swing
@@ -335,7 +335,7 @@ Possible future enhancements:
 
 ---
 
-# Learning Outcomes
+# 🎯 Learning Outcomes
 
 This project helped demonstrate:
 - JDBC programming
@@ -349,9 +349,9 @@ This project helped demonstrate:
 
 ---
 
-# Author: Surya Narayan Choudhury
-# Reg No.:2341003042(12)
-# Sec: M1
-# Branch: BTECH CSE(CYBER SECURITY)
+# 👨‍💻 Author
+
+**Surya Narayan Choudhury**   
+**Branch: B.Tech CSE (Cyber Security)**
 
 Developed as a JDBC Mini Project using Apache Derby Database.
