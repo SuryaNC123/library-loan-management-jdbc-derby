@@ -349,9 +349,31 @@ This project helped demonstrate:
 
 ---
 
+---
+
+# 📸 Application Screenshots
+
+## Main Menu Interface
+
+![Main Menu](main-menu.png)
+
+---
+
+## Loan Processing Transaction
+
+![Loan Transaction](loan-transaction.png)
+
+---
+
+## Performance Benchmark Report
+
+![Performance Report](performance-report.png)
+
+---
+
 # 👨‍💻 Author
 
 **Surya Narayan Choudhury**   
-**Branch: B.Tech CSE (Cyber Security)**
+**Branch: B.Tech CSE**
 
 Developed as a JDBC Mini Project using Apache Derby Database.
